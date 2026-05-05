@@ -18,7 +18,7 @@ st.subheader("Upload your pharmacogenomics report and get a plain-language expla
 st.markdown("---")
 
 # --- CPIC data path (hardcoded for now) ---
-CPIC_PATH =r"C:\Users\hulko\Downloads\cpic-genes-drugs.tsv"
+CPIC_PATH ="cpic_data.csv"
 # --- File uploader ---
 uploaded_file = st.file_uploader(
     "Upload your PGx PDF report",
